@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCCCCC"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TableLayout
+       android:layout_width="match_parent"
+        android:layout_height="fill_parent"  >
+
+        
+        
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+            
+             <ImageButton
+                 android:id="@+id/imageButtonInner"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                  android:background="@drawable/nerv"
+                  android:scaleType="fitXY"
+                  android:padding="3dp"
+                  android:layout_margin="3dp"
+                 android:src="@drawable/nerv" />
+            
+              <ImageButton
+                  android:id="@+id/imageButtonGene"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:background="@drawable/general"
+                  android:scaleType="fitXY"
+                  android:padding="3dp"
+                  android:layout_margin="3dp"
+                  android:src="@drawable/general" />
+             
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+             >
+              
+              
+             <ImageButton
+                 android:id="@+id/imageButtonner"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background="@drawable/nerv"
+                 android:scaleType="fitXY"
+                 android:padding="3dp"
+                 android:layout_margin="3dp"
+                 android:src="@drawable/nerv" />
+            
+              <ImageButton
+                  android:id="@+id/imageButtonhear"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:background="@drawable/heart"
+                  android:scaleType="fitXY"
+                  android:padding="3dp"
+                  android:layout_margin="3dp"
+                  android:src="@drawable/heart" />
+            
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" 
+            >
+              
+             <ImageButton
+                 android:id="@+id/imageButtonmf"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background="@drawable/rhemat"
+                 android:scaleType="fitXY"
+                 android:padding="3dp"
+                 android:layout_margin="3dp"
+                 android:src="@drawable/rhemat" />
+
+             <ImageButton
+                 android:id="@+id/imageButtonbao"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:background="@drawable/intire"
+                 android:scaleType="fitXY"
+                 android:padding="3dp"
+                 android:layout_margin="3dp"
+                 android:src="@drawable/intire" />
+            
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
